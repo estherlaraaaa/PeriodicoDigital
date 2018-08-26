@@ -6,12 +6,6 @@
     color: blue;
     }
 
-    .center {
-        margin: auto;
-        width: 60%;
-        border: 3px solid #73AD21;
-        padding: 10px;
-    }
 
 nav {
     position : absolute;
@@ -119,51 +113,34 @@ div.img2 img2 {
     height: auto;
     }
 
-div.img3 {
+div.img5 {
     margin: 10px;
     border: 1px solid #ccc;
     float: left;
-    width: 300px;
+    width: 400px;
     }
-            
-div.img3:hover {
+                   
+div.img5:hover {
     border: 1px solid #777;
     }
-            
-div.img3 img3 {
+                    
+div.img5 img5 {
     width: 100%;
     height: auto;
     }
 
-div.img4 {
-    margin: 10px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 300px;
-    }
-                
-div.img4:hover {
-    border: 1px solid #777;
-    }
-                
-div.img4 img4 {
-    width: 100%;
-    height: auto;
-    }
-
-
-    div.img5 {
+    div.img6 {
         margin: 10px;
         border: 1px solid #ccc;
         float: left;
-        width: 400px;
+        width: 200px;
         }
-                    
-    div.img5:hover {
+                       
+    div.img6:hover {
         border: 1px solid #777;
         }
-                    
-    div.img5 img5 {
+                        
+    div.img6 img6 {
         width: 100%;
         height: auto;
         }
