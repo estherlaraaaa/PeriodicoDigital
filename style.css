@@ -143,27 +143,20 @@ div.img5 img5 {
     div.img6 img6 {
         width: 100%;
         height: auto;
-        }
-    
-        div.img7 {
-            margin: 10px;
-            border: 1px solid #ccc;
-            float: left;
-            width: 350px;
-            }
-                           
-        div.img7:hover {
-            border: 1px solid #777;
-            }
-                            
-        div.img7 img7 {
-            width: 100%;
-            height: auto;
-            }
-
-    
+        }   
         
 div.desc {
     padding: 15px;
     text-align: center;
+    }
+
+div.franja {
+    position: relative;
+    margin-top: -50px;
+    height: 40px;
+    padding:5px 0px;
+    clear: both;
+    background: #286af0;
+    text-align: center;
+    color: #fff;
     }
