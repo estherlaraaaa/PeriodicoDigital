@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +8,34 @@
     <link rel="stylesheet" href="style.css">
     <title> Periódico Digital </title>
 </head>
+
 <body>
     <header>
-        <h1 id= "diario">DIARIO DE HOY</h1>
+        <center>
+            <h1 id="diario">DIARIO DE HOY</h1>
+        </center>
         <nav>
-            <ul id= "menu-header" class="menu">
-                <a class="home noticias" href="http://www.elsalvador.com/category/noticias/" onclick="pushEventGTM ('noticias','click','/')">Noticias</a>
-                <a class="home noticias" href="http://www.elsalvador.com/category/opinion/" onclick="pushEventGTM ('opinion','click','/')">Opinión</a>
-                <a class="home noticias" href="http://www.elsalvador.com/category/entretenimiento/" onclick="pushEventGTM ('entretenimiento','click','/')">Entretenimiento</a>
-                <a class="home noticias" href="http://www.elsalvador.com/category/vida/" onclick="pushEventGTM ('vida','click','/')">Vida</a>
-                <a class="home noticias" href="http://www.elsalvador.com/category/deporte/" onclick="pushEventGTM ('deporte','click','/')">Deporte</a>
+            <ul class="menu">
+                <li><a class="home noticias" href="#" onclick="pushEventGTM ('noticias','click','/')">Noticias</a></li>
+                <li><a class="home noticias" href="#" onclick="pushEventGTM ('opinion','click','/')">Opinión</a></li>
+                <li><a class="home noticias" href="#" onclick="pushEventGTM ('entretenimiento','click','/')">Entretenimiento</a></li>
+                <li><a class="home noticias" href="#" onclick="pushEventGTM ('vida','click','/')">Vida</a></li>
+                <li><a class="home noticias" href="#" onclick="pushEventGTM ('deporte','click','/')">Deporte</a></li>
             </ul>
         </nav>
+
+        <div class="dropdown">
+            <button class="dropbtn"> Dropdown </button>
+            <div class="dropdown-content">
+                <a href="#"> Noticias </a>
+                <a href="#"> Opinión </a>
+                <a href="#"> Entretenimiento </a>
+                <a href="#"> Vida </a>
+                <a href="#"> Deporte </a>
+            </div>
+        </div>
+
     </header>
 </body>
+
 </html>
