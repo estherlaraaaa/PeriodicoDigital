@@ -6,6 +6,13 @@
     color: blue;
     }
 
+    .center {
+        margin: auto;
+        width: 60%;
+        border: 3px solid #73AD21;
+        padding: 10px;
+    }
+
 nav {
     position : absolute;
     left : 0;
@@ -143,6 +150,23 @@ div.img4 img4 {
     width: 100%;
     height: auto;
     }
+
+
+    div.img5 {
+        margin: 10px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 400px;
+        }
+                    
+    div.img5:hover {
+        border: 1px solid #777;
+        }
+                    
+    div.img5 img5 {
+        width: 100%;
+        height: auto;
+        }
         
 div.desc {
     padding: 15px;
