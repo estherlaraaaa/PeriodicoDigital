@@ -150,6 +150,18 @@ div.desc {
     text-align: center;
     }
 
+
+
+div.encabezado {
+    position: relative;
+    margin-top: -10px;
+    height: 40px;
+    padding:5px 0px;
+    clear: both;
+    background: #286af0;
+    text-align: center;
+    color: #fff;
+}
 div.franja {
     position: relative;
     margin-top: -50px;
